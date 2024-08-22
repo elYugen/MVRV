@@ -1,0 +1,51 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.NavbarItems {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.NavbarItems li {
+    margin: 0 10px;
+}
+
+.NavbarItems a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.NavbarItems a:hover {
+    width: 200px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.NavbarLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.NavbarSearch {
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
