@@ -7,6 +7,7 @@ function Home() {
     return(
         <>
         <Navbar />
+        ddd
         <Footer />
         </>
     );

@@ -8,7 +8,7 @@ function Navbar() {
       <div className={styles.NavbarLogo}>MV Rivals &nbsp;<strong>Database</strong></div>
       <ul className={styles.NavbarItems}>
         <li><a href="#">Guides des Personnages</a></li>
-        <li><a href="tierlist">Tierlist </a></li>
+        <li><a href="tierlist">Tierliste </a></li>
         <li><a href="#">Guide Meta</a></li>
         <li><a href="#">Ranking Joueur</a></li>
       </ul>
