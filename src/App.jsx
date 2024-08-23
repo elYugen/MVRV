@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import NoPage from "./pages/404"
+import Tierlist from "./pages/Tierlist"
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           {/* <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} /> */}
           <Route path="*" element={<NoPage />} />
+          <Route path="tierlist" element={<Tierlist />} />
         </Route>
       </Routes>
     </BrowserRouter>
