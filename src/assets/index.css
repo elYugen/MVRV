@@ -9,5 +9,22 @@ li {
 }
 
 a {
-  color: white
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  border: 1px solid black;
 }
