@@ -753,3 +753,5 @@ const chara = [
       ]
     },
 ]
+
+export default chara
