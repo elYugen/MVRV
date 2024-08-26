@@ -4,6 +4,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import NoPage from "./pages/404"
 import Tierlist from "./pages/Tierlist"
+import Perso from "./pages/Perso"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="*" element={<NoPage />} />
           <Route path="tierlist" element={<Tierlist />} />
+          <Route path="perso" element={<Perso />} />
         </Route>
       </Routes>
     </BrowserRouter>
