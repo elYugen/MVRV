@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import Tierlist from "../components/Tierlist/Tierlist.jsx"
 
 function Home() {
     document.title = "MVRV Database - Tierlist";
@@ -7,7 +8,11 @@ function Home() {
     return(
         <>
         <Navbar />
-        ddd
+        <section>
+            <div className="container">
+                <Tierlist />
+            </div>
+        </section>    
         <Footer />
         </>
     );
