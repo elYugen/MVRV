@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import News from "../components/News/News";
+import Embed from "../components/Embed/Embed";
 
 function Stream() {
     document.title = `MVRV Database - Stream`;
@@ -9,9 +9,7 @@ function Stream() {
         <>
         <Navbar />
         <section>
-            <div className="container">
-                <News />
-            </div>
+            <Embed />
         </section>      
         <Footer />
         </>
