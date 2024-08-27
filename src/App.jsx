@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import NoPage from "./pages/404"
 import Tierlist from "./pages/Tierlist"
 import Perso from "./pages/Perso"
+import Stream from "./pages/Stream";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
           <Route path="tierlist" element={<Tierlist />} />
           <Route path="perso" element={<Perso />} />
+          <Route path="stream" element={<Stream />} />
         </Route>
       </Routes>
     </BrowserRouter>
