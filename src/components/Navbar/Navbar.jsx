@@ -11,7 +11,7 @@ function Navbar() {
         <li><a href="tierlist">Tierlist</a></li>
         <li><a href="#">Guide Meta</a></li>
         <li><a href="#">Ranking Joueur</a></li>
-        <li><a href="#">Stream</a></li>
+        <li><a href="stream">Stream</a></li>
       </ul>
       <input type="text" placeholder="Trouver un personnage" className={styles.NavbarSearch}/>
     </nav>
