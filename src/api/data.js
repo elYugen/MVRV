@@ -243,7 +243,7 @@ const chara = [
     },
   {
       name: "Jeff The Land Shark",
-      sprite: "./charfullbody/img_heroportrait_1047_fullbody.png",
+      sprite: "./charfullbody/img_heroportrait_1047_fullbody (2).png",
       health: "250",
       difficulty: "2",
       category: "Heal",
@@ -449,7 +449,7 @@ const chara = [
     },
   {
       name: "Captain America",
-      sprite: "./charfullbody/img_heroportrait_1022_fullbody.png",
+      sprite: "./charfullbody/img_heroportrait_1022_fullbody (1).png",
       health: "600",
       difficulty: "2",
       category: "Tank",
@@ -481,7 +481,7 @@ const chara = [
     },
   {
       name: "Rocket Racoon",
-      sprite: "./charfullbody/img_heroportrait_1023_fullbody.png",
+      sprite: "./charfullbody/img_heroportrait_1023_fullbody (1).png",
       health: "250",
       difficulty: "1",
       category: "Heal",
@@ -694,7 +694,7 @@ const chara = [
     },
     {
       "name": "Sorcière Rouge",
-      "sprite": "./charfullbody/img_heroportrait_1036_fullbody.png",
+      "sprite": "./charfullbody/img_heroportrait_1038_fullbody.png",
       "health": "250",
       "difficulty": "1",
       "category": "Dps",
