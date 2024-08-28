@@ -5,12 +5,13 @@ function Navbar() {
   return(
     <>
     <nav className={styles.Navbar}>
-      <div className={styles.NavbarLogo}>MV Rivals &nbsp;<strong>Database</strong></div>
+      <div className={styles.NavbarLogo}><a href="/">MV Rivals &nbsp;<strong>Database</strong></a></div>
       <ul className={styles.NavbarItems}>
-        <li><a href="#">Les Personnages</a></li>
-        <li><a href="#">Guides des Personnages</a></li>
-        <li><a href="#">Guide Meta</a></li>
-        <li><a href="#">Ranking</a></li>
+        <li><a href="perso">Guides Perso</a></li>
+        <li><a href="tierlist">Tierlist</a></li>
+        <li><a href="guide">Guide Meta</a></li>
+        <li><a href="#">Ranking Joueur</a></li>
+        <li><a href="stream">Stream</a></li>
       </ul>
       <input type="text" placeholder="Trouver un personnage" className={styles.NavbarSearch}/>
     </nav>

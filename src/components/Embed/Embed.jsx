@@ -51,11 +51,11 @@ function Logo() {
         <p style={{ fontSize: '12px', margin: '5px 0 0 0' }}>Namor</p>
       </div>
       <div onClick={() => handleImageClick('https://player.twitch.tv/?channel=FeFeGG&parent=localhost')} style={{ margin: '5px', textAlign: 'center' }}>
-        <img src="./charicon/Namor.png" alt="Namor" style={{ width: '50px', height: '50px', objectFit: 'cover' }} />
+        <img src="./charicon/Venom.png" alt="Namor" style={{ width: '50px', height: '50px', objectFit: 'cover' }} />
         <p style={{ fontSize: '12px', margin: '5px 0 0 0' }}>Namor</p>
       </div>
       <div onClick={() => handleImageClick('https://player.twitch.tv/?channel=&parent=localhost')} style={{ margin: '5px', textAlign: 'center' }}>
-        <img src="./charicon/Namor.png" alt="Namor" style={{ width: '50px', height: '50px', objectFit: 'cover' }} />
+        <img src="./charicon/hulk.png" alt="Namor" style={{ width: '50px', height: '50px', objectFit: 'cover' }} />
         <p style={{ fontSize: '12px', margin: '5px 0 0 0' }}>Namor</p>
       </div>
       <div onClick={() => handleImageClick('https://player.twitch.tv/?channel=MarvelRivalsfr&parent=localhost')} style={{ margin: '5px', textAlign: 'center' }}>
@@ -91,8 +91,8 @@ function TwitchEmbed() {
 function App() {
   return (
     <StreamProvider>
-      <Logo />
-      <TwitchEmbed />
+       <TwitchEmbed />
+       <Logo />
     </StreamProvider>
   );
 }

@@ -9,10 +9,6 @@ li {
 }
 
 a {
-<<<<<<< Updated upstream
-  color: white
-<<<<<<< Updated upstream
-=======
   color: white;
   text-decoration: none;
 }
@@ -22,7 +18,7 @@ section {
   margin-top: 30px;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .container {
@@ -31,8 +27,4 @@ section {
   justify-content: center;
   width: 70%;
   border: 1px solid black;
->>>>>>> Stashed changes
 }
-=======
-}hhh
->>>>>>> Stashed changes

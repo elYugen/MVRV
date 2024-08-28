@@ -1,8 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import TwitchEmbed from "../components/Embed/Embed";
-import Logo from "../components/Embed/Logo";
-
+import Embed from "../components/Embed/Embed";
 
 function Stream() {
     document.title = `MVRV Database - Stream`;
@@ -11,9 +9,8 @@ function Stream() {
         <>
         <Navbar />
         <section>
-            <TwitchEmbed />
+            <Embed />
         </section>      
-        <Logo/>
         <Footer />
         </>
     );

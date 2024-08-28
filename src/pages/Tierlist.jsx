@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import Caramel from "../components/TierList/Tier";
+import Tierlist from "../components/Tierlist/Tierlist.jsx"
 
 function Home() {
     document.title = "MVRV Database - Tierlist";
@@ -8,7 +8,11 @@ function Home() {
     return(
         <>
         <Navbar />
-        <Caramel/>
+        <section>
+            <div className="container">
+                <Tierlist />
+            </div>
+        </section>    
         <Footer />
         </>
     );

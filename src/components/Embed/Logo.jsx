@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Logo() {
   const divStyle = {
     width: '150px',
@@ -26,12 +25,6 @@ function Logo() {
     paddingBottom : '70px',
     margin: '2px 0 0 0',
   };
-
-
-  return (
-    <section>
-    </section>
-  );
 }
 
 export default Logo;
