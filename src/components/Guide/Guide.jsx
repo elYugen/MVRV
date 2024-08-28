@@ -5,11 +5,12 @@ import './Guide.css';
 
 const BootstrapCarousel = () => {
   return (
+    <div className='Code'>
     <Carousel fade>
    <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./charicon/Jack The shark.png"
+          src="./charicon/Jeff.png"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -308,6 +309,7 @@ const BootstrapCarousel = () => {
  
       {/* Ajoutez autant d'items que nécessaire */}
     </Carousel>
+    </div>
   );
 };
 

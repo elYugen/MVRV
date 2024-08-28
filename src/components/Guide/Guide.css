@@ -29,3 +29,7 @@
   .carousel-caption p {
     font-size: 1.2rem;
   }
+  .Code{
+    display: flex;
+    width: 800px;
+  }
