@@ -26,10 +26,10 @@ function Tierlist() {
         <img src="./charicon/hulk.png" alt="Hulk" />
         <img src="./charicon/loki.png" alt="Loki" />
         <img src="./charicon/Magneto.png" alt="Magneto" />
+        {/* <img src="./winter.png" alt="winter" /> */}
       </td>
     </tr>
     <tr>
-    <td>A</td>
     <td>
       <img src="./charicon/Adam.png" alt="" />
       <img src="./charicon/Black-Panthere.png" alt="" />
@@ -40,12 +40,13 @@ function Tierlist() {
       <img src="./charicon/Strange.png" alt="" />
       <img src="./charicon/storm.png" alt="" />
       <img src="./charicon/Mantis.png" alt="" />
+      {/* <img src="./captain.png" alt="" /> */}
     </td>
   </tr>
   <tr>
     <td>B</td>
     <td>
-      <img src="./charicon/Jack The shark.png" alt="" />
+      <img src="./charicon/Jeff.png" alt="" />
       <img src="./charicon/Namor.png" alt="" />
       <img src="./charicon/penny parker.png" alt="" />
       <img src="./charicon/Star lord.png" alt="" />

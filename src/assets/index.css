@@ -28,3 +28,13 @@ section {
   width: 70%;
   border: 1px solid black;
 }
+
+#etoile{
+  width: 20px;
+  height: 20px;
+}
+
+#log{
+  width: 60px;
+  height: 60px;
+}
