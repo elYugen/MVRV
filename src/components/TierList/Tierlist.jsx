@@ -30,6 +30,7 @@ function Tierlist() {
       </td>
     </tr>
     <tr>
+    <td>A</td>
     <td>
       <img src="./charicon/Adam.png" alt="" />
       <img src="./charicon/Black-Panthere.png" alt="" />
