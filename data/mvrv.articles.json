@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "66d1d846ee773375e00b556a"
+  },
+  "name": "Bonjour ",
+  "cover": "https://leclaireur.fnac.com/wp-content/uploads/2024/03/marvel-rivals-jeu-1256x826.jpeg",
+  "resume": "je suis un résumer",
+  "content": "salut ça va ?",
+  "createdAt": {
+    "$date": "2024-08-30T14:33:42.882Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-31T15:14:35.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d3354bf30cd18ea3e6759b"
+  },
+  "name": "Nouvel articles",
+  "cover": "https://r.res.easebar.com/pic/20240816/22417df2-571e-4fd8-9b68-12bdb658ac18.jpg",
+  "resume": "c'est ça ouais",
+  "content": "on va voir",
+  "createdAt": {
+    "$date": "2024-08-31T15:22:51.026Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-31T15:23:33.643Z"
+  },
+  "__v": 0
+}]
