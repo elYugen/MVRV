@@ -8,3 +8,9 @@ npm install
 
 Une fois le projet installer, lancer le fichier "start.bat"
 Celui-ci lancera automatiquement la base de donnée et le serveur web
+
+Contenu du .env à insérer dans backend
+```
+PORT=5555
+MONGODB_URL=mongodb://localhost:27017/mvrv
+```
