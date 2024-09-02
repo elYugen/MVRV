@@ -33,7 +33,7 @@ function ShowModal({ newsId, closeModal }) {
                 <p>{news.resume}</p>
                 <hr />
                 <p>{news.content}</p>
-                {/* Additional content or actions can go here */}
+             
             </div>
         </div>
     );
