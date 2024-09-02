@@ -43,7 +43,7 @@ module.exports = async bot => {
                     case 'Attachment':
                         slashcommand.addAttachmentOption(opt => opt.setName(option.name).setDescription(option.description).setRequired(option.required));
                         break;
-                    // Add other cases as needed
+ 
                     default:
                         console.error(`Unsupported option type: ${option.type}`);
                         break;
