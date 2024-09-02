@@ -8,12 +8,12 @@ module.exports = {
         {
             name: "nom",
             description: "Le nom du héros à rechercher",
-            type: 3, // STRING type
+            type: 3, 
             required: true
         }
     ],
     async execute(interaction) {
-        // Safely retrieve the hero name
+       
         const nomHeros = interaction.options.getString("nom");
         
         if (!nomHeros) {
@@ -29,10 +29,10 @@ module.exports = {
             let heroes = Array.isArray(response.data) ? response.data : [response.data];
             console.log('Nombre de héros reçus:', heroes.length);
 
-            // Log all hero names being compared to help debug
+          
             heroes.forEach(h => console.log(`Comparing with: ${h.name ? h.name.toLowerCase().trim() : "undefined"}`));
 
-            // Find the hero by name (case-insensitive, trimmed)
+         
             let hero = heroes.find(h => h.name && h.name.toLowerCase().trim() === heroNameTrimmed);
 
             console.log('Héros recherché:', heroNameTrimmed);
