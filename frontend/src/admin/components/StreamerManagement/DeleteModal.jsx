@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import styles from './StreamerManagement.module.css'; // Mettez à jour le chemin si nécessaire
+import styles from './StreamerManagement.module.css'; 
 
 function DeleteModal({ streamerId, closeModal, onDelete }) {
     const handleDelete = () => {
